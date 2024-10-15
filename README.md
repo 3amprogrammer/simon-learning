@@ -6,6 +6,7 @@ This repository contains a simple development environment where you can easily c
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Creating a New Project](#creating-a-new-project)
+- [Git basics](#git-basics)
 
 ## Getting Started
 
@@ -70,3 +71,18 @@ This will create a new folder inside src/ with the following structure:
 ```
 
 It will also automatically add a link to the new project in the main src/index.html file, so you can easily access it from the browser.
+
+## Git basics
+
+Pushing changes:
+```bash
+git status # Check what files will be added in next step
+git add . # Add all changes
+git commit -m "Commit message" # What message your commit will have
+git push 
+```
+
+Pulling changes:
+```bash
+git pull
+```
