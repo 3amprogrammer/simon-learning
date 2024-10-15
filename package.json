@@ -4,11 +4,13 @@
   "description": "",
   "scripts": {
     "create-project": "node bin/create-project",
+    "delete-project": "node bin/delete-project",
     "start": "webpack serve --open",
     "build": "webpack"
   },
   "bin": {
-    "create-project": "./bin/create-project.js"
+    "create-project": "./bin/create-project.js",
+    "delete-project": "./bin/delete-project.js"
   },
   "keywords": [],
   "author": "",
