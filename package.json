@@ -1,0 +1,27 @@
+{
+  "name": "simon-learning",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "create-project": "node bin/create-project",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "bin": {
+    "create-project": "./bin/create-project.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "css-loader": "^7.1.2",
+    "fs-extra": "^11.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
