@@ -71,6 +71,12 @@ This will create a new folder inside src/ with the following structure:
 ```
 
 It will also automatically add a link to the new project in the main src/index.html file, so you can easily access it from the browser.
+You can also delete project by running:
+
+```bash
+npm run delete-project <project_name>
+```
+
 
 ## Git basics
 
